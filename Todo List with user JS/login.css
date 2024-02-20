@@ -1,0 +1,76 @@
+/* login.css */
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+    /* Light gray background */
+    margin: 0;
+    padding: 0;
+}
+
+/* Container styles */
+div {
+    max-width: 400px;
+    margin: 100px auto;
+    /* Center the container vertically and horizontally */
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Heading styles */
+h1 {
+    color: #8a2be2;
+    /* Violet color */
+    margin-bottom: 20px;
+}
+
+/* Form styles */
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input[type="text"],
+input[type="password"],
+button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: box-shadow 0.3s, border-color 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+button:focus {
+    outline: none;
+    border-color: #8a2be2;
+    /* Dark violet focus color */
+    box-shadow: 0 0 5px rgba(138, 43, 226, 0.5);
+    /* Violet shadow */
+}
+
+button {
+    background-color: #8a2be2;
+    /* Violet button */
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #6a1b9a;
+    /* Dark violet hover color */
+    box-shadow: 0 0 10px rgba(106, 27, 154, 0.5);
+    /* Dark violet shadow */
+}

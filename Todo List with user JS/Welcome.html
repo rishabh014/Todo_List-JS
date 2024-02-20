@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo's - Home</title>
+    <link rel="stylesheet" href="welcome.css">
+</head>
+<body>
+    <div>
+        <h1>🤝Welcome to ToDo's💼</h1> <button type="button" onclick="LogOut()">LogOut</button>
+          <h2>Add your task below 👇</h2>
+        <form id="todoForm">
+            <input type="text" id="todoInput" placeholder="Add new todo">
+            <button type="button" onclick="Add()">Add</button>
+        </form>
+        <ul id="todoList">
+            Todo items will be added here dynamically
+        </ul>   
+        <button type="button" onclick="ClearList()">Clear List</button>
+        <!-- <button type="button" onclick="displayTodos()">Display</button> -->
+    </div>
+    <script src="Welcome.js"></script>
+</body>
+</html>

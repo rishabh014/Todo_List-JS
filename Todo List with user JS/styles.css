@@ -1,0 +1,83 @@
+/* styles.css */
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container styles */
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffcdd2;
+    /* Light red theme */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading styles */
+h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Form styles */
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+button:focus {
+    outline: none;
+    border-color: #d32f2f;
+    /* Dark red focus color */
+}
+
+button {
+    background-color: #f44336;
+    /* Red button */
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #d32f2f;
+    /* Dark red hover color */
+}
+
+a {
+    display: block;
+    text-align: center;
+    color: #d32f2f;
+    /* Dark red link color */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
